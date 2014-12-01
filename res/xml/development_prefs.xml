@@ -201,7 +201,8 @@
         <CheckBoxPreference
                 android:key="force_hw_ui"
                 android:title="@string/force_hw_ui"
-                android:summary="@string/force_hw_ui_summary"/>
+                android:summary="@string/force_hw_ui_summary"
+		android:defaultValue="true"/>
 
         <CheckBoxPreference
                 android:key="show_hw_screen_udpates"
